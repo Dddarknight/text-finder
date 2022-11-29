@@ -4,6 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Dddarknight <9801677@gmail.com>"]
 readme = "README.md"
+license = "GPL-3.0-only"
+keywords = ["psycopg2", "elasticsearch"]
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3",
+  "Framework :: FastAPI",
+  "Topic :: Text Processing"
+]
+repository = "https://github.com/Dddarknight/text-finder"
 packages = [{include = "text_finder"}]
 
 [tool.poetry.dependencies]

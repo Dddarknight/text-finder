@@ -17,6 +17,4 @@ class TextService:
         self.db_cursor.execute(query_select)
         self.db_connection.commit()
         texts = [text[0] for text in self.db_cursor]
-        self.db_cursor.close()
-        self.db_connection.close()
         return texts
