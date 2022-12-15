@@ -12,7 +12,7 @@ This project was built using these tools:
 | [FastAPI](https://fastapi.tiangolo.com/) | "Web framework for building APIs with Python" |
 | [PostgreSQL](https://www.postgresql.org/) |  "An open source object-relational database system" |
 | [Elasticsearch](https://www.elastic.co/elasticsearch/) |  "Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases." |
-| [Logstash](https://www.elastic.co/logstash/) |  "Python dependency management and packaging made easy" |
+| [Logstash](https://www.elastic.co/logstash/) |  "is a free and open server-side data processing pipeline that ingests data from a multitude of sources, transforms it, and then sends it to "stash" |
 | [poetry](https://python-poetry.org/) |  "Python dependency management and packaging made easy" |
 
 ## Installation and usage
