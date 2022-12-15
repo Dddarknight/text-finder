@@ -18,15 +18,19 @@ This project was built using these tools:
 ## Installation and usage
 
 **Introductory information**
+
 We have a database called 'texts' with a table 'db_texts'.
 The fields of the table: 'id', 'text', 'created_date', 'rubrics'.
 First, we need to put to the Elasticsearch index fields 'id', 'text'.
 Then our app will search requested text in the Elasticsearch index, collect related information (ids) about the objects and search them in our database. 
 
 **Tools**
+
 You need to have Elasticsearch and Logstash installed to use the app.
 If you don't, please, visit:
+
 [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
+
 [Logstash](https://www.elastic.co/guide/en/logstash/current/installing-logstash.html)
 
 Example Logstash configuration file:
